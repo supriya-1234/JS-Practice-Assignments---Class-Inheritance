@@ -2,8 +2,9 @@
 var Shape = require("./Shape");
 // declare class
 class Circle extends Shape {
-  constructor() {
+  constructor(color) {
     super(color);
+    this.color = "blue";
   }
   calculateArea() {}
 }
