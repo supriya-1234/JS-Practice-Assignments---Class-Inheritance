@@ -1,6 +1,6 @@
 // declare class
 class Shape {
-  constructor() {
+  constructor(color) {
     this.color = "red";
   }
   drawShape() {}
