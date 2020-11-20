@@ -1,6 +1,8 @@
 // declare class
-class Shape {
-  constructor() {
+import { Component } from "react";
+class Shape extends Component {
+  constructor(color) {
+    super();
     this.color = "red";
   }
   drawShape() {}
